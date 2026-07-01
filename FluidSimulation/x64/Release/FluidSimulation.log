@@ -1,0 +1,521 @@
+﻿  Compiling CUDA source file simulationControl.cu...
+  Compiling CUDA source file simulationCalculations.cu...
+  
+  C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation>"D:\NVIDIA\CUDA Toolkit\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"D:\CppLibrarys\imgui-sfml-master" -I"D:\CppLibrarys\imgui-master" -I"D:\CppLibrarys\SFML-2.5.1\include" -I"D:\NVIDIA\CUDA Toolkit\include" -I"D:\NVIDIA\CUDA Toolkit\include"     --keep-dir x64\Release -use_fast_math -maxrregcount=0    --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\x64\Release\simulationControl.cu.obj "C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\simulationControl.cu" 
+  
+  C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation>"D:\NVIDIA\CUDA Toolkit\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"D:\CppLibrarys\imgui-sfml-master" -I"D:\CppLibrarys\imgui-master" -I"D:\CppLibrarys\SFML-2.5.1\include" -I"D:\NVIDIA\CUDA Toolkit\include" -I"D:\NVIDIA\CUDA Toolkit\include"     --keep-dir x64\Release -use_fast_math -maxrregcount=0    --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\x64\Release\simulationCalculations.cu.obj "C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\simulationCalculations.cu" 
+D:/CppLibrarys/SFML-2.5.1/include\SFML/System/String.hpp(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::basic_string<Uint32> m_string; 
+                                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/System/String.hpp(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::basic_string<Uint32> m_string; 
+                                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Window/Window.hpp(549): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u          m_size;           
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(319): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_origin;                     
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(320): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_position;                   
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(322): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_scale;                      
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(97): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  position;  
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(99): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  texCoords; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Window/Window.hpp(549): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u          m_size;           
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/VertexArray.hpp(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vertex> m_vertices;      
+                            ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(309): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect;      
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(315): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_insideBounds;     
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(316): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_bounds;           
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(319): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_origin;                     
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(320): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_position;                   
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(322): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_scale;                      
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(97): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  position;  
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(99): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  texCoords; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/ConvexShape.hpp(115): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vector2f> m_points; 
+                              ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(55): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect bounds;      
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(56): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect   textureRect; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/VertexArray.hpp(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vertex> m_vertices;      
+                            ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(266): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u           m_size;   
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(309): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect;      
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(315): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_insideBounds;     
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(316): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_bounds;           
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(267): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Uint8> m_pixels; 
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(619): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_size;          
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(620): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_actualSize;    
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/ConvexShape.hpp(115): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vector2f> m_points; 
+                              ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(55): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect bounds;      
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(56): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect   textureRect; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(266): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u           m_size;   
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(267): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Uint8> m_pixels; 
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(619): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_size;          
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(620): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_actualSize;    
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(354): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Info                       m_info;        
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(354): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Info                       m_info;        
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(355): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable PageTable          m_pages;       
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(356): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable std::vector<Uint8> m_pixelBuffer; 
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RectangleShape.hpp(102): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f m_size; 
+                 ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(272): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_center;              
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(273): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_size;                
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(275): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect         m_viewport;            
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RenderTarget.hpp(476): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        StatesCache m_cache;       
+                    ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(355): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable PageTable          m_pages;       
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(356): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable std::vector<Uint8> m_pixelBuffer; 
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RectangleShape.hpp(102): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f m_size; 
+                 ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(272): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_center;              
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(273): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_size;                
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(275): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect         m_viewport;            
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RenderTarget.hpp(476): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        StatesCache m_cache;       
+                    ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(750): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        TextureTable m_textures;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(750): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        TextureTable m_textures;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(751): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        UniformTable m_uniforms;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Sprite.hpp(220): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect; 
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Text.hpp(449): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable FloatRect   m_bounds;              
+                            ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(751): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        UniformTable m_uniforms;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Sprite.hpp(220): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect; 
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Text.hpp(449): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable FloatRect   m_bounds;              
+                            ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/System/String.hpp(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::basic_string<Uint32> m_string; 
+                                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/System/String.hpp(527): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::basic_string<Uint32> m_string; 
+                                  ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Window/Window.hpp(549): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u          m_size;           
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Window/Window.hpp(549): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u          m_size;           
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(319): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_origin;                     
+                          ^
+  
+                          ^
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(320): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_position;                   
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(322): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_scale;                      
+                          ^
+  
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(97): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  position;  
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(99): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  texCoords; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(319): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_origin;                     
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(320): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_position;                   
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Transformable.hpp(322): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_scale;                      
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(97): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  position;  
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Vertex.hpp(99): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f  texCoords; 
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/VertexArray.hpp(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vertex> m_vertices;      
+                            ^
+  
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(309): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect;      
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(315): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_insideBounds;     
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(316): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_bounds;           
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/VertexArray.hpp(190): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vertex> m_vertices;      
+                            ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(309): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect;      
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(315): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_insideBounds;     
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shape.hpp(316): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect      m_bounds;           
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/ConvexShape.hpp(115): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vector2f> m_points; 
+                              ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(55): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect bounds;      
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(56): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect   textureRect; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(266): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u           m_size;   
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/ConvexShape.hpp(115): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Vector2f> m_points; 
+                              ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(55): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect bounds;      
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Glyph.hpp(56): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect   textureRect; 
+                  ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(266): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u           m_size;   
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(267): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Uint8> m_pixels; 
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(619): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_size;          
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(620): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_actualSize;    
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Image.hpp(267): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        std::vector<Uint8> m_pixels; 
+                           ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(619): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_size;          
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Texture.hpp(620): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2u     m_actualSize;    
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(354): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(354): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Info                       m_info;        
+                                   ^
+  
+        Info                       m_info;        
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(355): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable PageTable          m_pages;       
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(356): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(355): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable PageTable          m_pages;       
+                                   ^
+  
+        mutable std::vector<Uint8> m_pixelBuffer; 
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Font.hpp(356): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable std::vector<Uint8> m_pixelBuffer; 
+                                   ^
+  
+                                   ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RectangleShape.hpp(102): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f m_size; 
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RectangleShape.hpp(102): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f m_size; 
+                 ^
+  
+                 ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(272): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_center;              
+                          ^
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(272): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_center;              
+  
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(273): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_size;                
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(275): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        FloatRect         m_viewport;            
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(273): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        Vector2f          m_size;                
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/View.hpp(275): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RenderTarget.hpp(476): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        StatesCache m_cache;       
+                    ^
+  
+        FloatRect         m_viewport;            
+                          ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/RenderTarget.hpp(476): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        StatesCache m_cache;       
+                    ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(750): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        TextureTable m_textures;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(750): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        TextureTable m_textures;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(751): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        UniformTable m_uniforms;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Sprite.hpp(220): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect; 
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Shader.hpp(751): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        UniformTable m_uniforms;       
+                     ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Text.hpp(449): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable FloatRect   m_bounds;              
+                            ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Sprite.hpp(220): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        IntRect        m_textureRect; 
+                       ^
+  
+D:/CppLibrarys/SFML-2.5.1/include\SFML/Graphics/Text.hpp(449): warning #1394-D: field of class type without a DLL interface used in a class with a DLL interface
+        mutable FloatRect   m_bounds;              
+                            ^
+  
+  simulationControl.cu
+  simulationCalculations.cu
+  tmpxft_000009d8_00000000-7_simulationControl.cudafe1.cpp
+C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\simulationControl.cu(108): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  tmpxft_00000864_00000000-7_simulationCalculations.cudafe1.cpp
+  controlGui.cpp
+C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\controlGui.cpp(92,36): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\controlGui.cpp(93,38): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\controlGui.cpp(188,51): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\controlGui.cpp(200,58): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui-SFML.cpp
+  main.cpp
+C:\Users\Сергей\source\repos\FluidSimulation\FluidSimulation\main.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  simulationCore.h
+  solidObject.cpp
+     Создается библиотека C:\Users\Сергей\source\repos\FluidSimulation\x64\Release\FluidSimulation.lib и объект C:\Users\Сергей\source\repos\FluidSimulation\x64\Release\FluidSimulation.exp
+  Previous IPDB not found, fall back to full compilation.
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  Создание кода
+  All 1755 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  FluidSimulation.vcxproj -> C:\Users\Сергей\source\repos\FluidSimulation\x64\Release\FluidSimulation.exe

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="D:\CppLibrarys\imgui-master\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppLibrarys\imgui-master\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppLibrarys\imgui-master\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppLibrarys\imgui-master\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppLibrarys\imgui-master\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CppLibrarys\imgui-sfml-master\imgui-SFML.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="simulationCore.h" />
+    <ClCompile Include="controlGui.cpp" />
+    <ClCompile Include="solidObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simulationProperties.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="controlGui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{76334481-d884-4438-bb30-d7932d4f41cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="simulationCalculations.cu" />
+    <CudaCompile Include="simulationControl.cu" />
+  </ItemGroup>
+</Project>
